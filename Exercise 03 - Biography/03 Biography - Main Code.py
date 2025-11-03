@@ -1,0 +1,6 @@
+name=(str(input("what is your name?")))
+hometown=(str(input("What is your hometown?")))
+age=int(input("How old are you?"))
+print("Name:",name,)
+print("Hometwon:",hometown)
+print("Age:",age)
