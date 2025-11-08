@@ -1,3 +1,4 @@
+#Declaring the Variables
 italy='Rome'
 portugal='Lisbon'
 unitedkingdom='London'
@@ -8,13 +9,16 @@ germany='Berlin'
 france='Paris'
 sweden='Stockholm'
 norway='Oslo'
-
+#Displaying a welcome message
 print('Welcome to "Guess the Capital"')
 print('Answer the Following!')
 print('                              ')
 
-capital=str(input('What is the Capital of Italy?'
-' '))
+#Beginning of the Quiz
+#Dot notation lower was added to the If else statement to convert every response to lowercase and compare to the correct answer which is converted to lowercase.
+#This allows the code accept every type of answer in being uppercase or lowercase or mixed.
+
+capital=str(input('What is the Capital of Italy? '))
 if capital.lower()==italy.lower():
     print('Correct Answer!')
 else:
@@ -83,5 +87,5 @@ if capital.lower()==norway.lower():
 else:
     print('Wrong Answer!')
 print('                 ')
-
+#Displaying a Ending message.
 print('Well Done!')
