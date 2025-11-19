@@ -1,6 +1,6 @@
-number=int(input('Select a number:'))
+number=int(input('Choose a number:'))
 
 if number%2 == 0:
-    print(f"The number {number} is **Even**.")
+    print(f"The number {number} is Even.")
 else:
-    print(f"The number {number} is **Odd**.")
+    print(f"The number {number} is Odd.")
