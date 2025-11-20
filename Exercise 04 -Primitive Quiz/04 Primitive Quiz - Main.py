@@ -1,7 +1,10 @@
-#Declaring the Variables
+# Storing the correct answer in a variable
 france='Paris'
-#Asking for user input 
-capital=str(input('What is the Capital of France? '))
+# Ask the user for their guess. 
+capital=input('What is the Capital of France? ')
+
+# Convert BOTH the user's guess and the correct answer to lowercase.
+# This ensures that 'paris', 'PARIS', and 'Paris' all match.
 if capital.lower()==france.lower():
     print('Correct Answer!')
 else:
